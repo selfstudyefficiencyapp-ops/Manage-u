@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MANAGE U | 勉強習慣をつくる学習管理サービス</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    line-height:1.8;
+    color:#333;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+.hero{
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:white;
+    color:#667eea;
+    padding:15px 35px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section{
+    padding:80px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+    font-size:2rem;
+}
+
+.problem-grid,
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.gray{
+    background:#f7f7f7;
+}
+
+.flow{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.step{
+    flex:1;
+    min-width:220px;
+    background:white;
+    border-left:5px solid #667eea;
+    padding:20px;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
+
+.price-box{
+    text-align:center;
+    background:white;
+    max-width:500px;
+    margin:auto;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.price{
+    font-size:3rem;
+    color:#667eea;
+    font-weight:bold;
+}
+
+.cta{
+    background:#667eea;
+    color:white;
+    text-align:center;
+}
+
+.cta .btn{
+    color:#667eea;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+@media(max-width:768px){
+    .hero h1{
+        font-size:2rem;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<header class="hero">
+<div class="container">
+<h1>勉強しない高校生に、勉強習慣を。</h1>
+
+<p>
+やる気に頼らず続ける。<br>
+MANAGE Uは学習管理に特化した伴走サービスです。
+</p>
+
+<a href="#" class="btn">無料相談はこちら</a>
+</div>
+</header>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">
+こんな悩みありませんか？
+</h2>
+
+<div class="problem-grid">
+
+<div class="card">
+<h3>勉強を始められない</h3>
+<p>やらなきゃと思うのにスマホを見て終わる。</p>
+</div>
+
+<div class="card">
+<h3>計画が続かない</h3>
+<p>予定を立てても3日で崩れる。</p>
+</div>
+
+<div class="card">
+<h3>何をすればいいか分からない</h3>
+<p>受験までに何をやればいいのか曖昧。</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="gray">
+
+<div class="container">
+
+<h2 class="section-title">
+MANAGE Uとは？
+</h2>
+
+<p style="text-align:center;font-size:1.1rem;max-width:800px;margin:auto;">
+MANAGE Uは塾ではありません。
+勉強を教えるのではなく、
+「勉強を継続する仕組み」を提供します。
+
+計画作成・進捗管理・声かけ・面談を通して、
+勉強習慣を定着させます。
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2 class="section-title">
+サービス内容
+</h2>
+
+<div class="feature-grid">
+
+<div class="card">
+<h3>📅 学習計画作成</h3>
+<p>現状と目標から最適な計画を作成。</p>
+</div>
+
+<div class="card">
+<h3>📱 LINEサポート</h3>
+<p>毎日の報告と声かけで継続を支援。</p>
+</div>
+
+<div class="card">
+<h3>🎯 定期面談</h3>
+<p>課題分析と計画修正を実施。</p>
+</div>
+
+<div class="card">
+<h3>📊 学習管理</h3>
+<p>勉強時間と進捗を見える化。</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="gray">
+
+<div class="container">
+
+<h2 class="section-title">
+利用の流れ
+</h2>
+
+<div class="flow">
+
+<div class="step">
+<h3>STEP1</h3>
+<p>無料相談</p>
+</div>
+
+<div class="step">
+<h3>STEP2</h3>
+<p>目標と現状をヒアリング</p>
+</div>
+
+<div class="step">
+<h3>STEP3</h3>
+<p>学習計画作成</p>
+</div>
+
+<div class="step">
+<h3>STEP4</h3>
+<p>伴走スタート</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2 class="section-title">
+料金
+</h2>
+
+<div class="price-box">
+
+<p>学習習慣形成プラン</p>
+
+<div class="price">
+¥3,000
+</div>
+
+<p>／月（税込）</p>
+
+<br>
+
+<p>
+LINEサポート<br>
+学習計画作成<br>
+定期面談
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<div class="container">
+
+<h2>
+まずは無料相談から
+</h2>
+
+<br>
+
+<p>
+勉強習慣について気軽に相談してください。
+</p>
+
+<br>
+
+<a href="#" class="btn">
+LINEで相談する
+</a>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 MANAGE U
+</footer>
+
+</body>
+</html>
